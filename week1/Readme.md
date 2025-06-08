@@ -1,4 +1,4 @@
-# 🚀 My Week 1 RISC-V SoC Lab Adventure
+# 🚀 My Week 1 RISC-V SoC Lab 
 
 Welcome! This document is not just a log—it's my story of learning RISC-V bare-metal development from scratch. Every step below is written with beginners in mind, with practical code and my own notes. If you like hands-on, copy-paste-ready recipes and honest, personal tips, you’re in the right place! 🎉
 
