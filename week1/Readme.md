@@ -76,11 +76,11 @@ riscv-none-elf-readelf -h hello.elf | grep Entry
 
 **My Output:**  
 
-![Alt text](week1/Screenchots/2.png)
+![Alt text](Screenchots/2.png)
 
-![Alt text](week1/Screenchots/3.png)
+![Alt text](Screenchots/3.png)
 
-![Alt text](week1/Screenchots/4.png)
+![Alt text](Screenchots/4.png)
 <br>
 
 ---
@@ -108,7 +108,7 @@ main:
 
 **My Output:**  
 
-![Alt text](week1/Screenchots/5.png)
+![Alt text](Screenchots/5.png)
 
 <br>
 
@@ -136,9 +136,9 @@ hexdump -C hello.bin
 
 **My Output:**  
 
-![Alt text](week1/Screenchots/6.png)
+![Alt text](Screenchots/6.png)
 
-![Alt text](week1/Screenchots/7.png)
+![Alt text](Screenchots/7.png)
 
 
 <br>
@@ -190,9 +190,9 @@ riscv-none-elf-gdb hello2.elf
 
 **My Output:**  
 
-![Alt text](week1/Screenchots/8.png)
+![Alt text](Screenchots/8.png)
 
-![Alt text](week1/Screenchots/9.png)
+![Alt text](Screenchots/9.png)
 
 <br>
 
@@ -214,15 +214,15 @@ Milen RISC-V Value
 ```
 
 **My Output:**  
-![Alt text](week1/Screenchots/10.png)
+![Alt text](Screenchots/10.png)
 
-![Alt text](week1/Screenchots/11.png)
+![Alt text](Screenchots/11.png)
 
-![Alt text](week1/Screenchots/12.png)
+![Alt text](Screenchots/12.png)
 
-![Alt text](week1/Screenchots/13.png)
+![Alt text](Screenchots/13.png)
 
-![Alt text](week1/Screenchots/14.png)
+![Alt text](Screenchots/14.png)
 
 **Successful** We have got the desired output.
 <br>
@@ -244,7 +244,7 @@ riscv-none-elf-gcc -g -O2 -march=rv32im -mabi=ilp32 -nostdlib -T linker.ld -o he
 - `-O2`: Tight, fast, uses lots of registers!
 
 **My Output:**  
-![Alt text](week1/Screenchots/15.png)
+![Alt text](Screenchots/15.png)
 
 <br>
 
@@ -266,9 +266,9 @@ __asm__ volatile (
 - `volatile`: Don’t let the compiler optimize it away!
 
 **My Output:**  
-![Alt text](week1/Screenchots/16.png)
+![Alt text](Screenchots/16.png)
 
-![Alt text](week1/Screenchots/17.png)
+![Alt text](Screenchots/17.png)
 <br>
 
 ---
@@ -290,8 +290,8 @@ void _start() { main(); while(1); }
 ```
 
 **My Output:**  
-![Alt text](week1/Screenchots/18.png)
-![Alt text](week1/Screenchots/19.png)
+![Alt text](Screenchots/18.png)
+![Alt text](Screenchots/19.png)
 <br>
 
 ---
@@ -316,9 +316,9 @@ _start.s hello.c -o hello.elf
 ```
 
 **My Output:**  
-![Alt text](week1/Screenchots/20.png)
-![Alt text](week1/Screenchots/21.png)
-![Alt text](week1/Screenchots/22.png)
+![Alt text](Screenchots/20.png)
+![Alt text](Screenchots/21.png)
+![Alt text](Screenchots/22.png)
 <br>
 
 ---
@@ -346,7 +346,7 @@ qemu-system-riscv32 -nographic -machine virt -bios none -kernel timer.elf
 ```
 
 **My Output:**  
-![Alt text](week1/Screenchots/23.png)
+![Alt text](Screenchots/23.png)
 
 <br>
 
@@ -367,8 +367,8 @@ qemu-system-riscv32 -nographic -machine virt -bios none -kernel mutex.elf
 ```
 
 **My Output:**  
-![Alt text](week1/Screenchots/24.png)
-![Alt text](week1/Screenchots/25.png)
+![Alt text](Screenchots/24.png)
+![Alt text](Screenchots/25.png)
 
 
 <br>
@@ -430,7 +430,7 @@ Little-Endian
 ```
 
 **My Output:**  
-![Alt text](week1/Screenchots/26.png)
+![Alt text](Screenchots/26.png)
 
 <br>
 
