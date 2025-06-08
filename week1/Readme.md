@@ -30,7 +30,7 @@ riscv-none-elf-gdb --version
 
 
 
-![Alt text](week1/Screenchots/1.png)
+![Alt text](Screenchots/1.png)
 
 
 <br>
